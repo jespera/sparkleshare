@@ -1,3 +1,4 @@
 = Notes on ranking of spatches =
 
-There have been discussion as to wheter we would like to provide a language (or mechanism otherwise
+There have been discussion as to wheter we would like to provide a language (or 
+other mechanism) for 
