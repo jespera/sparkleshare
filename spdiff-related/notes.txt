@@ -26,4 +26,13 @@ Cons:
   additional complexity for no apparent good reason
 - 
 
+= Example specifications =
+
+"Multiple statements should share some metavariables"
+
+
+
+s in SP, s' in SP, X in MV(s), X in MV(s')
+=> s...s' ≼ SP || 
+   s'...s ≼ SP
 
