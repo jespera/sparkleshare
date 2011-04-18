@@ -9,3 +9,21 @@ ranking property and a pruning property. A pruning property is used to
 completely discard a result (and it can be optimizing if it closed/preserved
 under extension). A ranking property is a property that allows one to decide
 when a certain pattern is more desirable than another.
+
+
+It would be nice to design a simple language for expressing pruning/ranking
+properties.
+
+Pros:
+- The notion of what a "useful spatch" is becomes clearly evident to others
+- One can come up with other notions of usefulness and rapidly try it out
+- spdiff should be able to take use "optimizing pruning properties" to speed up
+  running time
+- 
+
+Cons:
+- If there really only is *one* good specification of "useful", we have created
+  additional complexity for no apparent good reason
+- 
+
+
