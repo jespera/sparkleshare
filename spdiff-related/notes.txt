@@ -1,4 +1,10 @@
 = Notes on ranking of spatches =
 
-There have been discussion as to wheter we would like to provide a language (or 
-other mechanism) for 
+There have been discussion as to wheter we would like to provide a language (or
+other mechanism) for expressing the ranking we want to do on the returned
+spatches.
+
+There's a distinction we have so far not made: there's a difference between a
+ranking property and a pruning property. A pruning property is used to
+completely discard a result (and it can be optimizing if it closed/preserved
+under extension).
